@@ -1,0 +1,45 @@
+/* Add this to your CSS file */
+
+.chat-room {
+    width: 400px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+  }
+  
+  .messages-container {
+    height: 300px;
+    overflow-y: scroll;
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #fff;
+  }
+  
+  .message {
+    margin-bottom: 10px;
+  }
+  
+  .message-input input {
+    width: 80%;
+    padding: 10px;
+    margin-right: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .message-input button {
+    padding: 10px 15px;
+    border-radius: 5px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .message-input button:hover {
+    background-color: #45a049;
+  }
+  
